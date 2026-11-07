@@ -1,18 +1,25 @@
-# System Roadmap
+# BOMS — public development timeline
 
-## ✅ Phase 1: Foundation (Completed)
-* **Email Intake Automation:** Successful implementation of report parsing logic and attachment handling via Power Automate.
-* **SharePoint Data Model:** Establishment of the Primary Workflow Queue as the single source of truth for all billing operations.
-* **Regional Routing:** Implementation of a basic automated assignment and specialist notification system to replace manual sorting.
+This roadmap distinguishes the two employer-specific initiatives.
 
-## 🚀 Phase 2: Structural Hardening (In Progress)
-* **Configuration-Driven Routing:** Migration from hard-coded role logic to dynamic, list-based lookups to allow for administrative updates without code changes. (Completed)
-* **Centralized Logging:** Deployment of an automated exception and error logging system to improve system observability and fault tolerance.
-* **Environment Maturity:** Establishing dedicated Development and Production environment separation to ensure a professional deployment lifecycle.
-* **Archive Logic:** Implementation of archive-date-based retention logic to protect historical data integrity and optimize list performance. (Completed)
+It is not an internal delivery schedule or commitment.
 
-## 🔭 Phase 3: System Intelligence (Future)
-* **Predictive Analytics:** Implementation of KPI-driven SLA alerts to proactively identify and resolve workflow bottlenecks before they impact compliance.
-* **Batch Workflow Enhancements:** Development of specialized handling and routing logic for batch-based invoicing workflows.
-* **Enterprise Scaling:** Evaluating a migration to Microsoft Dataverse to handle increased data volumes and facilitate cross-department expansion.
-* **Governance Framework:** Establishing a centralized Power Platform governance model to manage service accounts and long-term system health.
+## Phase I — Billing workflow automation
+
+**Earlier initiative.**
+
+Work centered on structured billing coordination, automated processing support, and operational reporting using Microsoft Power Platform.
+
+## Phase II — Billing operations consolidation and intelligence
+
+**Current stage: limited employee pilot.**
+
+The pilot incorporates role-specific work experiences, task queues, automated documentation, reconciliation, validation, and operational reporting using AI-assisted application development.
+
+## Potential next stage — enterprise deployment evaluation
+
+Options under consideration include integration with an existing internal platform or a standalone Azure-hosted application.
+
+The selection, approval, scope, and timing are **not confirmed** here.
+
+For functional scope, see [Phase II overview](../phase-ii/overview.md).
