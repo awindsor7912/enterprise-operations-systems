@@ -70,12 +70,15 @@ The pilot has demonstrated working automation and validation capabilities with a
 - [Public disclosure notice](DISCLOSURE.md)
 - [Project website](https://awindsor7912.github.io/billing-operations-management-system/)
 
-### Project Attribution & Confidentiality
 
-Both phases of the Billing Operations Management System represent employer-specific initiatives undertaken during my employment with Infratech Corporation. The projects and their underlying intellectual property remain the property of Infratech Corporation.
-
-This repository is independently maintained as a professional case study documenting my contributions, generalized technical concepts, and relevant professional competencies.
-
-No proprietary source code, internal application architecture, confidential business information, customer records, or employer-specific implementation details are intentionally disclosed.
-
-See [Project Attribution, Intellectual Property & Confidentiality](DISCLOSURE.md) for additional information.
+> **Employer-Specific Professional Case Study**
+>
+> Both phases of the Billing Operations Management System document initiatives undertaken during my employment with Infratech Corporation.
+>
+> The projects, underlying applications, and associated intellectual property remain the property of Infratech Corporation.
+>
+> This repository is independently maintained as a professional portfolio demonstrating my contributions, technical competencies, and generalized systems design concepts.
+>
+> Proprietary source code, internal architecture, confidential business information, customer records, and employer-specific implementation details are intentionally excluded.
+>
+> See [Project Attribution, Intellectual Property & Confidentiality](DISCLOSURE.md) for additional information.
