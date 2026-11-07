@@ -1,25 +1,72 @@
-# BOMS — public development timeline
 
-This roadmap distinguishes the two employer-specific initiatives.
+# BOMS — Development Evolution & Future Direction
 
-It is not an internal delivery schedule or commitment.
+## Overview
 
-## Phase I — Billing workflow automation
+The Billing Operations Management System case study documents two related employer-specific initiatives focused on improving billing operations through business process improvement, automation, and integrated application functionality.
 
-**Earlier initiative.**
+This document presents a generalized overview of the initiatives' progression.
 
-Work centered on structured billing coordination, automated processing support, and operational reporting using Microsoft Power Platform.
+It is not an internal implementation schedule or official organizational roadmap.
 
-## Phase II — Billing operations consolidation and intelligence
+---
 
-**Current stage: limited employee pilot.**
+## Phase I — Billing Workflow Automation
 
-The pilot incorporates role-specific work experiences, task queues, automated documentation, reconciliation, validation, and operational reporting using AI-assisted application development.
+**Focus:** Administrative efficiency and process standardization.
 
-## Potential next stage — enterprise deployment evaluation
+Primary areas of work included:
 
-Options under consideration include integration with an existing internal platform or a standalone Azure-hosted application.
+- Structured workflow coordination.
+- Automation of repetitive administrative tasks.
+- Processing visibility.
+- Exception awareness.
+- Operational reporting.
 
-The selection, approval, scope, and timing are **not confirmed** here.
+This initiative established foundational experience in translating business process challenges into technical workflow solutions.
 
-For functional scope, see [Phase II overview](../phase-ii/overview.md).
+---
+
+## Phase II — Billing Operations Consolidation & Intelligence
+
+**Current Status:** Active Limited-User Pilot
+
+Phase II extends the earlier business objectives into a more integrated application environment.
+
+Functional areas include:
+
+- Role-oriented operational workspaces.
+- Centralized task and follow-up management.
+- Automated documentation preparation.
+- Reconciliation and validation.
+- Operational reporting and performance visibility.
+- Expanded process standardization.
+
+The pilot supports iterative evaluation of functionality, usability, and operational effectiveness.
+
+---
+
+## Continued Development Considerations
+
+Potential future objectives include:
+
+- Expanded functionality.
+- Additional operational use cases.
+- Improved workflow integration.
+- Greater scalability and maintainability.
+- Broader user adoption.
+- Continued refinement based on operational feedback.
+
+These areas are presented as generalized development considerations.
+
+Specific technology decisions, deployment plans, schedules, and organizational commitments are not disclosed.
+
+---
+
+## Project Ownership
+
+Both phases were undertaken in connection with employment at Infratech Corporation.
+
+The underlying applications and associated intellectual property remain the property of Infratech Corporation.
+
+This roadmap is independently maintained as generalized professional portfolio documentation.
