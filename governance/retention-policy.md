@@ -1,15 +1,7 @@
-# Data Retention Policy
+# Retention considerations
 
-## Overview
+Records used for operational workflows may have different retention requirements based on contractual, legal, audit, and organizational policy.
 
-Workflow records are retained for a defined period to support compliance monitoring and operational reporting.
+Retention and deletion controls must be approved through the employer's governance process.
 
----
-
-## Retention Lifecycle
-
-Active processing phase  
-Completed record retention  
-Archival or automated cleanup
-
-Retention policies ensure that operational data remains available for analysis while preventing uncontrolled data growth.
+**No employer-specific retention duration, archive process, or deletion schedule is disclosed in this portfolio.**
