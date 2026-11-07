@@ -1,25 +1,15 @@
-# Data Flow
 
-## Overview
+# Phase I — Conceptual data flow
 
-The BOMS platform processes operational reports through a structured data pipeline.
+A generalized workflow may capture a work request, normalize it into a trackable record, coordinate processing, and make summary results available for reporting.
 
----
+```text
+Input -> Structured Record -> Work Coordination -> Review/Completion -> Summary Reporting
+```
 
-## Data Flow Sequence
+The sequence is conceptual.
 
-1. Operational reports are received via email.
+It does not represent the employer's exact integrations, data stores, identifiers, network boundaries, or data contracts.
 
-2. Power Automate parses report data and extracts relevant billing information.
+See [disclosure guidance](../DISCLOSURE.md).
 
-3. A structured workflow record is created in SharePoint.
-
-4. The workflow record progresses through operational states as specialists process the report.
-
-5. Power BI dashboards read workflow data to generate operational analytics.
-
----
-
-## Benefits
-
-This architecture ensures that all reports follow a consistent processing path and that operational data is centralized for analysis.
