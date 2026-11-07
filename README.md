@@ -8,16 +8,23 @@
 
 ## Overview
 
-BOMS is a professional case-study series covering two related stages of billing operations improvement. **Phase I** focused on structured workflow automation with Microsoft Power Platform. **Phase II** broadens the work toward an integrated billing operations experience that combines role-relevant workspaces, automation, reconciliation, validation, and management reporting.
+BOMS documents two related stages of employer-specific billing operations improvement.
 
-The phases describe separate employer-specific initiatives, not two independently owned or publicly distributed software products.
+**Phase I** focused on structured workflow automation, administrative coordination, and operational reporting.
 
-| | Phase I: Workflow automation | Phase II: Billing operations consolidation |
+**Phase II** expands these objectives into a more integrated approach to billing operations, including role-oriented workspaces, automated validation, reconciliation, task management, and operational analytics.
+
+Both initiatives were undertaken during employment with Infratech Corporation. The underlying projects and associated intellectual property remain the property of Infratech Corporation.
+
+
+| Category | Phase I | Phase II |
 |---|---|---|
-| Focus | Intake coordination, routing, status visibility and reporting | Role-oriented work management, billing controls, reconciliation and operational intelligence |
-| Technologies used | SharePoint, Power Automate, Power BI | Claude Artifact pilot; AI-assisted development; secure Azure-connected data access through MCP tools |
-| Current presentation | Prior initiative, documented at a conceptual level | **Limited employee pilot**; broader deployment being considered |
-| Public materials | Generalized architecture principles | Generalized functional summary, without implementation details |
+| Primary Focus | Workflow automation | Integrated billing operations |
+| Business Objective | Reduce repetitive administrative processing | Consolidate workflows and improve operational visibility |
+| Functional Scope | Work coordination, automation, reporting | Role-oriented workspaces, reconciliation, validation, and analytics |
+| Development Approach | Business process analysis and workflow design | Requirements engineering, AI-assisted development, and iterative testing |
+| Project Status | Earlier initiative | Active limited-user pilot |
+| Project Ownership | Infratech Corporation | Infratech Corporation |
 
 ## Business context
 
@@ -30,18 +37,19 @@ Phase I focused on structuring billing-related work and automating administrativ
 See [Phase I overview](architecture/overview-and-logic-model.md) and [generalized automation pattern](architecture/automation-architecture.md).
 
 ## Phase II — Billing operations consolidation and intelligence
+### Development Responsibilities
 
-Phase II extends the scope into an application experience oriented around the needs of different users. In the current limited-user pilot, the reported and validated capabilities include:
+My responsibilities include defining functional requirements, directing AI-assisted application development, making design decisions, troubleshooting generated functionality, testing expected behavior, and refining the application based on operational needs.
 
-- Personalized work views, processing queues, and follow-up activities.
-- Automated preparation of billing documentation.
-- High-level reconciliation between operational billing records and customer records.
-- Identification of approval-dependent items and potential invoicing exceptions.
-- Dynamic operational reporting and management-oriented visibility.
+### Current Status
 
-**My contribution:** Define and refine requirements, direct AI-assisted implementation through Claude, make functional design decisions, test and troubleshoot generated features, and validate behavior against business needs.
+Phase II is undergoing limited-user operational evaluation.
 
-**Deployment status:** The pilot is hosted as a Claude Artifact, with secure access to relevant enterprise data through Azure-connected MCP tooling. Integration with an existing company system or a separately hosted Azure application is **under consideration**, not a completed deployment.
+Demonstrated capabilities include automated documentation preparation, record reconciliation, identification of items requiring further review, and operational reporting.
+
+Future development and broader organizational use remain subject to internal evaluation.
+
+Specific implementation technologies, infrastructure arrangements, and proprietary integration details are intentionally excluded.
 
 See [Phase II case study](phase-ii/overview.md), [generalized validation approach](phase-ii/validation-and-evaluation.md), and [reporting overview](analytics/reporting-dashboard.md).
 
