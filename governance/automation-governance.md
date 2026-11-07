@@ -1,19 +1,7 @@
-# Automation Governance
+# Automation governance — general principles
 
-## Objective
+Workplace automation should have accountable ownership, documented change review, appropriate access controls, and monitoring.
 
-Automation governance ensures that workflow automations operate reliably and safely within the operational environment.
+These are **general governance principles** and are not a description or certification of the employer's implemented controls.
 
----
-
-## Governance Principles
-
-Centralized management of automation flows  
-Controlled modification of workflow logic  
-Monitoring of automation performance
-
----
-
-## Operational Responsibility
-
-Automation maintenance is performed through structured updates to ensure continuity of workflow operations.
+The public portfolio omits service accounts, permissions, incident escalation rules, and operational automation configurations.
