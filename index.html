@@ -1,105 +1,963 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Billing Operations Management System | Ashley Windsor</title>
-  <meta name="description" content="Workflow automation case study for billing operations, compliance tracking, and enterprise process visibility." />
+
+  <title>BOMS | Billing Operations Management System</title>
+
+  <meta
+    name="description"
+    content="A professional case study covering two phases of enterprise billing workflow automation, AI-assisted application development, reconciliation, and operational analytics."
+  />
+
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
+
+<!-- ======================================= -->
+<!-- NAVIGATION                              -->
+<!-- ======================================= -->
 
 <header class="site-header">
   <div class="nav-wrap">
-    <a class="brand" href="https://awindsor7912.github.io/">A. WINDSOR</a>
+
+    <a
+      class="brand"
+      href="https://awindsor7912.github.io/"
+    >
+      A. WINDSOR
+    </a>
+
     <nav class="nav-links" aria-label="Primary navigation">
-      <a href="https://awindsor7912.github.io/">Home</a>
-      <a href="https://awindsor7912.github.io/#projects">Projects</a>
-      <a href="https://awindsor7912.github.io/billing-operations-management-system/">BOMS</a>
-      <a href="https://awindsor7912.github.io/equipment-management-portal/">EMP</a>
-      <a href="https://awindsor7912.github.io/enterprise-data-analytics/">SQL</a>
-      <a href="https://awindsor7912.github.io/Operations-Analytics-Portfolio/">Analytics</a>
-      <a href="https://github.com/awindsor7912">GitHub</a>
+
+      <a href="https://awindsor7912.github.io/">
+        Home
+      </a>
+
+      <a href="#overview">
+        Overview
+      </a>
+
+      <a href="#phase-one">
+        Phase I
+      </a>
+
+      <a href="#phase-two">
+        Phase II
+      </a>
+
+      <a href="#documentation">
+        Documentation
+      </a>
+
+      <a
+        href="https://github.com/awindsor7912/billing-operations-management-system"
+      >
+        GitHub
+      </a>
+
     </nav>
   </div>
 </header>
-<section class="hero" style="--hero-image: url('../BOMS.jpg');">
+
+
+<!-- ======================================= -->
+<!-- HERO SECTION                            -->
+<!-- ======================================= -->
+
+<section class="hero">
+
   <div class="hero-inner">
+
     <div>
-      <p class="eyebrow">Workflow Automation · Billing Controls</p>
-      <h1>Billing Operations Management System</h1>
-      <p class="lead">A workflow automation concept for structured billing intake, routing, compliance monitoring, and operational reporting.</p>
+
+      <p class="eyebrow">
+        Workflow Automation · AI-Assisted Development · Operational Analytics
+      </p>
+
+      <h1>
+        Billing Operations Management System
+      </h1>
+
+      <p class="lead">
+        A two-phase enterprise billing operations initiative
+        progressing from structured workflow automation
+        toward an integrated application for operational
+        consolidation, billing intelligence, and
+        role-specific work management.
+      </p>
+
       <div class="hero-actions">
-        <a class="btn btn-primary" href="https://github.com/awindsor7912/billing-operations-management-system">View Repository</a>
-        <a class="btn btn-secondary" href="#evidence">View Evidence</a>
+
+        <a
+          class="btn btn-primary"
+          href="#phase-two"
+        >
+          Explore Phase II
+        </a>
+
+        <a
+          class="btn btn-secondary"
+          href="#documentation"
+        >
+          View Case Studies
+        </a>
+
       </div>
+
     </div>
-    
-<div class="command-panel" aria-label="Operational dashboard preview">
-  <div class="kpi-grid">
-    <div class="kpi-card"><span class="kpi-label">Billing Accuracy</span><span class="kpi-value">98.6%</span><span class="kpi-note">Controls + validation</span></div>
-    <div class="kpi-card"><span class="kpi-label">Hours Recovered</span><span class="kpi-value">25+</span><span class="kpi-note">Weekly capacity</span></div>
-    <div class="kpi-card"><span class="kpi-label">Workflows</span><span class="kpi-value">32+</span><span class="kpi-note">Automation concepts</span></div>
-    <div class="kpi-card"><span class="kpi-label">Compliance</span><span class="kpi-value">99%</span><span class="kpi-note">Exception visibility</span></div>
-  </div>
-  <div class="panel-chart">
-    <div class="chart-card">
-      <div class="chart-title">Billing Volume Trend</div>
-      <div class="sparkline"><svg viewBox="0 0 220 58" preserveAspectRatio="none"><polyline fill="none" stroke="#7FC4F2" stroke-width="4" points="0,45 28,34 55,39 83,24 110,29 138,18 166,23 194,12 220,8"/></svg></div>
+
+
+    <!-- Portfolio Summary Panel -->
+
+    <div
+      class="command-panel"
+      aria-label="Project overview"
+    >
+
+      <div class="kpi-grid">
+
+        <div class="kpi-card">
+
+          <span class="kpi-label">
+            Phase I
+          </span>
+
+          <span
+            class="kpi-value"
+            style="font-size:1.45rem"
+          >
+            Automation
+          </span>
+
+          <span class="kpi-note">
+            Power Platform workflows
+          </span>
+
+        </div>
+
+        <div class="kpi-card">
+
+          <span class="kpi-label">
+            Phase II
+          </span>
+
+          <span
+            class="kpi-value"
+            style="font-size:1.45rem"
+          >
+            Pilot
+          </span>
+
+          <span class="kpi-note">
+            Limited employee usage
+          </span>
+
+        </div>
+
+        <div class="kpi-card">
+
+          <span class="kpi-label">
+            Technical Focus
+          </span>
+
+          <span
+            class="kpi-value"
+            style="font-size:1.35rem"
+          >
+            Validation
+          </span>
+
+          <span class="kpi-note">
+            Reconciliation &amp; controls
+          </span>
+
+        </div>
+
+        <div class="kpi-card">
+
+          <span class="kpi-label">
+            Operational Focus
+          </span>
+
+          <span
+            class="kpi-value"
+            style="font-size:1.35rem"
+          >
+            Role-Based
+          </span>
+
+          <span class="kpi-note">
+            Relevant work &amp; reporting
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <!-- Summary Information -->
+
+      <div class="panel-chart">
+
+        <div class="chart-card">
+
+          <div class="chart-title">
+            Application Capabilities
+          </div>
+
+          <p>
+            Workflow management · Document automation ·
+            Reconciliation · Operational reporting
+          </p>
+
+        </div>
+
+        <div class="chart-card">
+
+          <div class="chart-title">
+            Development Approach
+          </div>
+
+          <p>
+            Requirements engineering · AI-assisted
+            development · Functional testing ·
+            Iterative refinement
+          </p>
+
+        </div>
+
+      </div>
+
     </div>
-    <div class="chart-card">
-      <div class="chart-title">Work Order Status</div>
-      <div class="bars"><span style="height:72%"></span><span style="height:46%"></span><span style="height:60%"></span><span style="height:33%"></span><span style="height:84%"></span></div>
-    </div>
+
   </div>
-</div>
-  </div>
+
 </section>
-<section class="metric-strip"><div class="metric-inner"><div class="metric"><strong>60%</strong><span>Target reduction in manual workflow effort</span></div><div class="metric"><strong>25+</strong><span>Hours recovered weekly through automation design</span></div><div class="metric"><strong>32+</strong><span>Workflow and routing concepts</span></div><div class="metric"><strong>Power Platform</strong><span>SharePoint, Power Automate, Power BI</span></div></div></section>
+
+
+<!-- ======================================= -->
+<!-- PROJECT OVERVIEW                        -->
+<!-- ======================================= -->
+
 <main>
 
-<section class="section">
+<section
+  class="section"
+  id="overview"
+>
+
   <div class="container">
-    <div class="section-header"><p class="section-kicker">Case Study</p><h2>From inbox-driven billing work to structured operational control.</h2><p>BOMS demonstrates how manual billing coordination can be redesigned as a controlled workflow system with defined intake, routing, status management, exception monitoring, and reporting.</p></div>
-    <div class="grid grid-4">
-      <div class="card"><h3>Problem</h3><p>Manual intake and follow-up created inconsistent visibility into ownership, status, exceptions, and workload aging.</p></div>
-      <div class="card"><h3>Solution</h3><p>A SharePoint and Power Automate workflow model with structured records, routing logic, and billing status tracking.</p></div>
-      <div class="card"><h3>Technical Focus</h3><p>Workflow state design, configurable routing, governance controls, Power BI reporting, and process hardening.</p></div>
-      <div class="card"><h3>Business Value</h3><p>Improves billing accuracy, reduces manual review, and gives leadership visibility into bottlenecks and compliance risk.</p></div>
+
+    <div class="section-header">
+
+      <p class="section-kicker">
+        Project Overview
+      </p>
+
+      <h2>
+        From Process Automation to Integrated Operations
+      </h2>
+
+      <p>
+        The Billing Operations Management System documents
+        the evolution of two related initiatives undertaken
+        during my employment with Infratech Corporation.
+
+        Both initiatives focus on improving operational
+        efficiency, reducing repetitive administrative
+        processes, and making business information more
+        accessible to the people responsible for using it.
+      </p>
+
+      <p>
+        This public case study presents generalized
+        business systems concepts, professional
+        responsibilities, and technical competencies.
+        Proprietary implementation details are excluded.
+      </p>
+
     </div>
-  </div>
-</section>
-<section class="section compact" id="evidence">
-  <div class="container">
-    <div class="section-header"><p class="section-kicker">Workflow Architecture</p><h2>Billing work becomes trackable, assignable, and measurable.</h2></div>
-    <div class="flow">
-      <div class="flow-step"><strong>Request Intake</strong><span>Billing request or work item enters the system.</span></div>
-      <div class="flow-step"><strong>Structured Record</strong><span>Request details are converted into standardized fields.</span></div>
-      <div class="flow-step"><strong>Routing Logic</strong><span>Automation assigns ownership based on business rules.</span></div>
-      <div class="flow-step"><strong>Status Control</strong><span>Work is monitored by stage, due date, and exception state.</span></div>
-      <div class="flow-step"><strong>Reporting</strong><span>Power BI surfaces volume, aging, backlog, and compliance signals.</span></div>
-    </div>
-  </div>
-</section>
-<section class="section">
-  <div class="container">
-    <div class="section-header"><p class="section-kicker">Technical Evidence</p><h2>Repository documentation surfaced for reviewers.</h2></div>
+
+
     <div class="grid grid-3">
-      <div class="card"><h3>Automation Architecture</h3><p>Design notes for routing, workflow coordination, and automation behavior.</p><a class="link" href="architecture/automation-architecture.md">Open document →</a></div>
-      <div class="card"><h3>Workflow State Model</h3><p>Status lifecycle for tracking work from intake through completion and exception handling.</p><a class="link" href="workflows/workflow-state-model.md">Open document →</a></div>
-      <div class="card"><h3>Data Flow</h3><p>How operational inputs move through structured records, automation, and reporting outputs.</p><a class="link" href="architecture/data-flow.md">Open document →</a></div>
-      <div class="card"><h3>Governance + Hardening</h3><p>Controls for reliability, maintainability, retention, and long-term workflow support.</p><a class="link" href="governance/governance-and-hardening.md">Open document →</a></div>
-      <div class="card"><h3>Reporting Dashboard</h3><p>Analytics layer designed to monitor workload, exceptions, billing status, and operational performance.</p><a class="link" href="analytics/reporting-dashboard.md">Open document →</a></div>
-      <div class="card"><h3>System Roadmap</h3><p>Planned enhancements for scalability, monitoring, and process maturity.</p><a class="link" href="roadmap/system-roadmap.md">Open document →</a></div>
+
+      <div class="card">
+
+        <h3>
+          Business Challenge
+        </h3>
+
+        <p>
+          Fragmented workflows, manual reporting,
+          repetitive data entry, and distributed
+          operational information create administrative
+          overhead and limit process visibility.
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          Solution Approach
+        </h3>
+
+        <p>
+          Translate business requirements into structured
+          processes, workflow automation, configurable
+          application experiences, and actionable
+          operational reporting.
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          Development Philosophy
+        </h3>
+
+        <p>
+          Combine operational domain knowledge,
+          analytical problem-solving, and AI-assisted
+          development with human-led requirements,
+          testing, and validation.
+        </p>
+
+      </div>
+
     </div>
+
   </div>
+
 </section>
-<section class="section compact">
+
+
+<!-- ======================================= -->
+<!-- PHASE I                                 -->
+<!-- ======================================= -->
+
+<section
+  class="section compact"
+  id="phase-one"
+>
+
   <div class="container">
-    <div class="table-wrap"><table><thead><tr><th>Before</th><th>After</th></tr></thead><tbody><tr><td>Manual inbox review and individual follow-up.</td><td>Structured queue with defined status and ownership.</td></tr><tr><td>Limited visibility into aging and exceptions.</td><td>Reporting-ready data model for bottleneck monitoring.</td></tr><tr><td>Hard-coded or undocumented process knowledge.</td><td>Documented workflow states, routing logic, and governance rules.</td></tr></tbody></table></div>
+
+    <div class="section-header">
+
+      <p class="section-kicker">
+        Phase I · Workflow Automation
+      </p>
+
+      <h2>
+        Structured Billing Workflow Management
+      </h2>
+
+      <p>
+        The initial initiative focused on transitioning
+        administrative billing activities toward more
+        consistent workflow coordination, automated
+        task processing, and improved operational
+        visibility through Microsoft Power Platform.
+      </p>
+
+    </div>
+
+
+    <div class="grid grid-3">
+
+      <div class="card">
+
+        <h3>
+          Workflow Coordination
+        </h3>
+
+        <p>
+          Introduced structured approaches to work
+          intake, assignment, processing visibility,
+          and administrative follow-up.
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          Process Automation
+        </h3>
+
+        <p>
+          Applied Power Automate and structured records
+          to reduce repetitive administrative activities
+          and support more consistent processing.
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          Operational Reporting
+        </h3>
+
+        <p>
+          Used Power BI concepts and reporting
+          capabilities to improve visibility into
+          billing activity, workload, and exceptions.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="section-header"
+      style="margin-top:32px"
+    >
+
+      <h3>
+        Technical Experience
+      </h3>
+
+      <p>
+        Microsoft SharePoint · Power Automate ·
+        Power BI · Workflow Design · Process
+        Standardization · Business Requirements
+      </p>
+
+    </div>
+
   </div>
+
 </section>
+
+
+<!-- ======================================= -->
+<!-- PHASE II                                -->
+<!-- ======================================= -->
+
+<section
+  class="section"
+  id="phase-two"
+>
+
+  <div class="container">
+
+    <div class="section-header">
+
+      <p class="section-kicker">
+        Phase II · Active Limited-User Pilot
+      </p>
+
+      <h2>
+        Billing Operations Consolidation &amp; Intelligence
+      </h2>
+
+      <p>
+        Phase II expands the scope of the original
+        automation initiative toward an integrated
+        billing operations environment.
+
+        Its primary objective is to consolidate
+        fragmented administrative workflows while
+        providing relevant information, tasks, and
+        reporting capabilities to different
+        organizational roles.
+      </p>
+
+    </div>
+
+
+    <!-- Functional Capabilities -->
+
+    <div class="grid grid-4">
+
+      <div class="card">
+
+        <h3>
+          Role-Specific Workspaces
+        </h3>
+
+        <p>
+          Configurable interfaces supporting
+          personalized processing queues, task
+          priorities, follow-ups, and management
+          visibility appropriate to different
+          responsibilities.
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          Document Automation
+        </h3>
+
+        <p>
+          Automated preparation of standardized
+          billing documentation, reducing repetitive
+          manual processing and supporting greater
+          consistency.
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          Reconciliation &amp; Validation
+        </h3>
+
+        <p>
+          Capabilities supporting record comparison,
+          approval identification, and detection of
+          billing items requiring additional review.
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          Operational Intelligence
+        </h3>
+
+        <p>
+          Dynamic reporting and role-relevant views
+          supporting operational trends, production
+          activity, billing exceptions, and
+          performance analysis.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- Development Responsibility -->
+
+    <div
+      class="section-header"
+      style="margin-top:40px"
+    >
+
+      <p class="section-kicker">
+        Development &amp; Functional Ownership
+      </p>
+
+      <h2>
+        Human-Led, AI-Assisted Application Development
+      </h2>
+
+      <p>
+        I lead functional requirements definition,
+        application design decisions, iterative
+        AI-assisted development, troubleshooting,
+        testing, and refinement.
+
+        Claude is used to support implementation,
+        while business requirements, expected
+        functionality, and acceptance decisions
+        remain subject to human evaluation.
+      </p>
+
+      <p>
+        The current limited-user pilot operates
+        through a Claude Artifact environment with
+        secure Azure-connected MCP data access.
+
+        Broader enterprise integration or deployment
+        through a standalone Azure-hosted application
+        remains under consideration.
+      </p>
+
+    </div>
+
+
+    <!-- Development Workflow -->
+
+    <div class="flow">
+
+      <div class="flow-step">
+
+        <strong>
+          Requirements
+        </strong>
+
+        <span>
+          Identify business needs and expected
+          functional behavior.
+        </span>
+
+      </div>
+
+
+      <div class="flow-step">
+
+        <strong>
+          Design
+        </strong>
+
+        <span>
+          Define workflows, interfaces, and
+          functional expectations.
+        </span>
+
+      </div>
+
+
+      <div class="flow-step">
+
+        <strong>
+          AI-Assisted Development
+        </strong>
+
+        <span>
+          Direct implementation and iterative
+          feature refinement.
+        </span>
+
+      </div>
+
+
+      <div class="flow-step">
+
+        <strong>
+          Testing
+        </strong>
+
+        <span>
+          Evaluate functionality, investigate
+          defects, and verify expected behavior.
+        </span>
+
+      </div>
+
+
+      <div class="flow-step">
+
+        <strong>
+          Pilot Validation
+        </strong>
+
+        <span>
+          Evaluate demonstrated capabilities
+          against operational requirements.
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <!-- Pilot Outcomes -->
+
+    <div
+      class="section-header"
+      style="margin-top:40px"
+    >
+
+      <p class="section-kicker">
+        Observed Outcomes
+      </p>
+
+      <h2>
+        Validated Functional Improvements
+      </h2>
+
+      <p>
+        The limited employee pilot has demonstrated
+        automated document preparation,
+        reconciliation capabilities, approval
+        identification, and additional billing
+        validation functions.
+
+        These improvements reduce reliance on
+        repetitive manual activities and support
+        more consistent operational processing.
+      </p>
+
+      <p>
+        Quantitative productivity, financial,
+        and accuracy metrics are intentionally
+        excluded from this public case study
+        pending validation and disclosure approval.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ======================================= -->
+<!-- PROJECT DOCUMENTATION                  -->
+<!-- ======================================= -->
+
+<section
+  class="section compact"
+  id="documentation"
+>
+
+  <div class="container">
+
+    <div class="section-header">
+
+      <p class="section-kicker">
+        Portfolio Documentation
+      </p>
+
+      <h2>
+        Architecture, Workflow Design &amp; Evaluation
+      </h2>
+
+      <p>
+        Supporting documentation covers generalized
+        design principles and professional development
+        practices.
+
+        These materials do not reproduce proprietary
+        application architecture or confidential
+        employer information.
+      </p>
+
+    </div>
+
+
+    <div class="grid grid-3">
+
+      <div class="card">
+
+        <h3>
+          Phase I Overview
+        </h3>
+
+        <p>
+          Business workflow design principles,
+          automation objectives, and operational
+          considerations.
+        </p>
+
+        <a
+          class="link"
+          href="architecture/overview-and-logic-model.md"
+        >
+          Read Overview &rarr;
+        </a>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          Automation Architecture
+        </h3>
+
+        <p>
+          Generalized workflow coordination,
+          automation patterns, and
+          exception-handling principles.
+        </p>
+
+        <a
+          class="link"
+          href="architecture/automation-architecture.md"
+        >
+          Read Architecture &rarr;
+        </a>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          Phase II Case Study
+        </h3>
+
+        <p>
+          Functional objectives, application
+          capabilities, and the current
+          pilot development stage.
+        </p>
+
+        <a
+          class="link"
+          href="phase-ii/overview.md"
+        >
+          Read Case Study &rarr;
+        </a>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          AI-Assisted Development
+        </h3>
+
+        <p>
+          Requirements interpretation,
+          implementation review, troubleshooting,
+          testing, and iterative evaluation.
+        </p>
+
+        <a
+          class="link"
+          href="phase-ii/validation-and-evaluation.md"
+        >
+          Read Evaluation Approach &rarr;
+        </a>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          Reporting &amp; Analytics
+        </h3>
+
+        <p>
+          Operational reporting concepts,
+          management visibility, and
+          measurement considerations.
+        </p>
+
+        <a
+          class="link"
+          href="analytics/reporting-dashboard.md"
+        >
+          Read Reporting Overview &rarr;
+        </a>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          Governance &amp; Reliability
+        </h3>
+
+        <p>
+          General considerations for
+          data quality, change management,
+          reliability, and access governance.
+        </p>
+
+        <a
+          class="link"
+          href="governance/governance-and-hardening.md"
+        >
+          Read Governance Principles &rarr;
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ======================================= -->
+<!-- DISCLOSURE NOTICE                       -->
+<!-- ======================================= -->
+
+<section class="section">
+
+  <div class="container">
+
+    <div class="section-header">
+
+      <p class="section-kicker">
+        Project Context
+      </p>
+
+      <h2>
+        Professional Case Study &amp; Confidentiality
+      </h2>
+
+      <p>
+        Both phases represent employer-specific
+        initiatives undertaken at Infratech Corporation.
+
+        This website is an independently maintained
+        professional portfolio describing my
+        contributions and generalized technical
+        competencies.
+      </p>
+
+      <p>
+        It is not an official employer website
+        or a public distribution of internal
+        application software.
+
+        Proprietary source code, customer records,
+        internal business rules, access configurations,
+        and confidential architecture are excluded.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
 </main>
-<footer class="footer"><div class="footer-inner"><span>© Ashley D. Windsor · Operational Analytics Portfolio</span><span><a href="https://awindsor7912.github.io/">Portfolio Home</a> · <a href="https://github.com/awindsor7912/billing-operations-management-system">GitHub Repo</a></span></div></footer>
+
+
+<!-- ======================================= -->
+<!-- FOOTER                                  -->
+<!-- ======================================= -->
+
+<footer class="footer">
+
+  <div class="footer-inner">
+
+    <span>
+      &copy; Ashley D. Windsor ·
+      Business Systems &amp; Operational Analytics
+    </span>
+
+    <span>
+
+      <a href="https://awindsor7912.github.io/">
+        Portfolio Home
+      </a>
+
+      ·
+
+      <a
+        href="https://github.com/awindsor7912/billing-operations-management-system"
+      >
+        GitHub Repository
+      </a>
+
+    </span>
+
+  </div>
+
+</footer>
+
 </body>
 </html>
