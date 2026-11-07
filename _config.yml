@@ -1,7 +1,8 @@
 title: "Billing Operations Management System (BOMS)"
-description: "Portfolio repository showcasing an automation platform that transforms inbox-driven billing workflows into a structured operational system using Microsoft Power Platform."
-baseurl: "/billing-operations-management-system"
+description: "Professional case study documenting enterprise billing workflow automation, business systems design, operational analytics, and AI-assisted application development."
+
 url: "https://awindsor7912.github.io"
+baseurl: "/billing-operations-management-system"
 
 markdown: kramdown
 theme: minima
