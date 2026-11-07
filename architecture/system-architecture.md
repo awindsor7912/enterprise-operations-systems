@@ -1,54 +1,16 @@
-# System Architecture
 
-## Overview
+# Phase I — Architecture summary
 
-The Billing Operations Management System (BOMS) is designed as an automation-driven operational platform built within the Microsoft Power Platform ecosystem.
+The earlier BOMS initiative used Microsoft Power Platform components in support of billing workflow automation and reporting.
 
-The system integrates automated email intake, workflow state management, and operational analytics to create a structured billing workflow environment.
+A safe public description is limited to these functional domains:
 
----
+- Consistent work intake and tracking.
+- Automation of administrative handoffs.
+- Visibility into work progression and exceptions.
+- Operational analysis and management reporting.
 
-## Architectural Layers
+Specific workflow triggers, SharePoint structures, dependencies and enterprise integration details are not reproduced here.
 
-The system architecture consists of four primary layers:
+Phase II has a distinct pilot environment: see [Phase II overview](../phase-ii/overview.md).
 
-1. Input Layer
-2. Automation Layer
-3. Workflow Data Layer
-4. Analytics Layer
-
----
-
-## Input Layer
-
-Production reports are received through operational email channels.
-
-These reports represent the primary trigger for billing workflow activity.
-
----
-
-## Automation Layer
-
-Power Automate flows process incoming reports and perform several automated tasks:
-
-• parsing report data  
-• extracting relevant billing information  
-• routing reports to appropriate operational areas  
-
-Automation reduces manual data handling and ensures consistent intake processing.
-
----
-
-## Workflow Data Layer
-
-SharePoint lists store structured workflow records representing each report.
-
-Each record progresses through defined workflow states as billing specialists process the report.
-
-This structure enables operational visibility and reporting.
-
----
-
-## Analytics Layer
-
-Power BI dashboards connect to workflow data to provide supervisors with real-time visibility into operational backlog, workload distribution, and production compliance.
