@@ -1,18 +1,10 @@
-# Workflow State Model
 
-## Purpose
+# Workflow state modeling — illustrative concept
 
-The workflow state model defines the lifecycle stages that a billing record moves through during processing.
+A work-management system commonly needs a way to distinguish new items, active work, items needing review, and completed work.
 
-Tracking workflow states enables supervisors to monitor operational progress and identify bottlenecks.
+Visible states help users understand ownership and prioritize attention.
 
----
+The categories above are deliberately illustrative; they are **not** a disclosure of actual internal state values or transitions.
 
-## State Definitions
-
-New Intake – report has been received but not processed  
-Parsed – automation has extracted report data  
-Routed – report assigned to operational area's assigned administrative team  
-In Processing – billing specialist actively processing  
-Awaiting Documentation – additional information required  
-Completed – invoice completed and stored in backup files
+For the new pilot, consult [Phase II overview](../phase-ii/overview.md).
