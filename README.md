@@ -1,26 +1,69 @@
 # Billing Operations Management System (BOMS)
-**An Event-Driven Workflow Orchestration Engine for Enterprise Billing Operations.**
+
+**Enterprise billing workflows · Business systems analysis · AI-assisted application development · Operational analytics**
 
 ![BOMS BANNER](BOMS.jpg)
 
-## 📑 Executive Summary
-BOMS is a state-based workflow management system designed to centralize and automate the high-volume billing lifecycle. By transitioning from unstructured, inbox-driven processes to a structured automation engine, the system establishes a single source of truth for operational data, significantly reducing administrative overhead and improving compliance visibility.
+> **Portfolio case study — employer-specific work.** Both initiatives documented here were undertaken in connection with employment at Infratech Corporation. This repository does **not** contain the employer's application, source code, database schemas, internal workflows, or customer information. This material is prepared for disclosure review and should be published only if authorized under applicable policies and agreements.
 
-## 📉 The Business Problem
-Prior to implementation, operations relied on manual email tracking and fragmented spreadsheet lookups, resulting in: 
-* **Operational Clutter:** High email volumes inhibited workload transparency.
-* **Inefficient Filtering:** Manual Excel report filtering consumed significant specialist time.
-* **Compliance Risk:** Tracking critical processing thresholds (e.g., LPD Days < 30) required manual monitoring.
+## Overview
 
-## 🚀 The Solution: Event-Driven Automation
-BOMS utilizes a modular, layered architecture built on the **Microsoft Power Platform** to automate the intake-to-archive lifecycle: 
-* **Intelligent Intake:** Automated parsing of inbound requests into structured records.
-* **State-Based Routing:** Dynamic assignment of work items based on regional configuration.
-* **Data Enrichment:** Real-time matching against enterprise semantic models to populate financial metadata.
-* **Operational Analytics:** Power BI dashboards provide real-time visibility into backlog and production metrics.
-* * 🔗 **[View this Repository for Case Studies and Sample Screenshots](https://awindsor7912.github.io/Operations-Analytics-Portfolio/)**
+BOMS is a professional case-study series covering two related stages of billing operations improvement. **Phase I** focused on structured workflow automation with Microsoft Power Platform. **Phase II** broadens the work toward an integrated billing operations experience that combines role-relevant workspaces, automation, reconciliation, validation, and management reporting.
 
-## 📈 Measurable Impact
-* **Efficiency:** Estimated **25+ hours saved per week per specialist**.
-* **Accuracy:** Significant reduction in data entry errors via automated enrichment.
-* **Oversight:** 100% transparency into workload distribution for supervisory review.
+The phases describe separate employer-specific initiatives, not two independently owned or publicly distributed software products.
+
+| | Phase I: Workflow automation | Phase II: Billing operations consolidation |
+|---|---|---|
+| Focus | Intake coordination, routing, status visibility and reporting | Role-oriented work management, billing controls, reconciliation and operational intelligence |
+| Technologies used | SharePoint, Power Automate, Power BI | Claude Artifact pilot; AI-assisted development; secure Azure-connected data access through MCP tools |
+| Current presentation | Prior initiative, documented at a conceptual level | **Limited employee pilot**; broader deployment being considered |
+| Public materials | Generalized architecture principles | Generalized functional summary, without implementation details |
+
+## Business context
+
+Billing operations often depend on multiple applications, manually assembled reports, repeated data entry, and human follow-up across roles. These fragmented processes complicate prioritization, reconciliation, and consistent validation. The initiatives explore ways to improve operational visibility and reduce repetitive manual work.
+
+## Phase I — Workflow automation
+
+Phase I focused on structuring billing-related work and automating administrative coordination. Its public-safe description covers workflow intake, assignment, processing visibility, exception awareness, and reporting.
+
+See [Phase I overview](architecture/overview-and-logic-model.md) and [generalized automation pattern](architecture/automation-architecture.md).
+
+## Phase II — Billing operations consolidation and intelligence
+
+Phase II extends the scope into an application experience oriented around the needs of different users. In the current limited-user pilot, the reported and validated capabilities include:
+
+- Personalized work views, processing queues, and follow-up activities.
+- Automated preparation of billing documentation.
+- High-level reconciliation between operational billing records and customer records.
+- Identification of approval-dependent items and potential invoicing exceptions.
+- Dynamic operational reporting and management-oriented visibility.
+
+**My contribution:** Define and refine requirements, direct AI-assisted implementation through Claude, make functional design decisions, test and troubleshoot generated features, and validate behavior against business needs.
+
+**Deployment status:** The pilot is hosted as a Claude Artifact, with secure access to relevant enterprise data through Azure-connected MCP tooling. Integration with an existing company system or a separately hosted Azure application is **under consideration**, not a completed deployment.
+
+See [Phase II case study](phase-ii/overview.md), [generalized validation approach](phase-ii/validation-and-evaluation.md), and [reporting overview](analytics/reporting-dashboard.md).
+
+## Outcomes and evidence
+
+The pilot has demonstrated working automation and validation capabilities with a limited group of employees. Reduced manual processing has been observed, but comparative timing, error-rate, and financial-impact figures have **not** been independently documented in this public portfolio. No numeric productivity or compliance claims are asserted here.
+
+## Documentation map
+
+- [Phase I architecture overview](architecture/overview-and-logic-model.md)
+- [Phase I automation pattern](architecture/automation-architecture.md)
+- [Phase I conceptual data flow](architecture/data-flow.md)
+- [Phase I generalized workflow](workflows/billing-workflow.md)
+- [Phase II functional case study](phase-ii/overview.md)
+- [Phase II quality and evaluation approach](phase-ii/validation-and-evaluation.md)
+- [Operational reporting](analytics/reporting-dashboard.md)
+- [Security and governance principles](governance/governance-and-hardening.md)
+- [Public disclosure notice](DISCLOSURE.md)
+- [Project website](https://awindsor7912.github.io/billing-operations-management-system/)
+
+## Rights and confidentiality
+
+This repository is a *descriptive professional portfolio*, not the source or official documentation for the employer's internal system. Do not infer authorization to reuse employer-owned implementations. No license to any employer-owned material is offered. All public disclosure requires independent verification and any necessary employer approval.
+
+See [DISCLOSURE.md](DISCLOSURE.md).
